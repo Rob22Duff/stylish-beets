@@ -1,10 +1,6 @@
-body {
-  background-color: #c9b5ab;
-}
-
 h1, h2 {
   font-size: 1.5rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-weight: bold;
   line-height: 1.5;
@@ -17,7 +13,7 @@ p {
 
 a {
   font-size: 1.125rem;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
   text-decoration: none;
   font-weight: bold;
@@ -30,7 +26,7 @@ a:hover {
 
 blockquote {
   font-size: 1.5rem;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   color: #222;
 }
 
@@ -39,7 +35,7 @@ figcaption {
 }
 
 img {
-  width: 500px;
+  width: 485px;
   height: auto;
 }
 
@@ -48,5 +44,13 @@ dt {
 }
 
 cite:last-child {
-  font-size: 0.8rem;
+  font-size: .8rem;
+}
+
+html {
+  background-color: #c9b5ab;
+}
+
+ul {
+  list-style-type: lower-greek;
 }
